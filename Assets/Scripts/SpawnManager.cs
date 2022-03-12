@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject fish;
     public Transform[] spawnPositions;
-    private int currentFishCount = 0;
+    public int currentFishCount = 0;
     private int totalFishCount = 3;
 
     // Start is called before the first frame update
